@@ -369,396 +369,59 @@ class _HomeState extends State<Home> {
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
-                  Container(
-                    margin: EdgeInsets.fromLTRB(0, 0, 8, 0),
-                    width: 88,
-                    decoration: BoxDecoration(
-                        color: Color(0xFF9932cc),
-                        borderRadius: BorderRadius.circular(5)),
-                    child: TextButton(
-                        onPressed: () {},
-                        style: TextButton.styleFrom(
-                          padding: EdgeInsets.all(6),
-                        ),
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Icon(
-                                Icons.widgets_outlined,
-                                size: 23,
-                                color: Colors.white,
-                              ),
-                              Container(
-                                child: Text(
-                                  "Pix",
-                                  style: TextStyle(color: Colors.white),
-                                ),
-                              )
-                            ],
-                          ),
-                        )),
-                  ),
-                  Container(
-                    margin: EdgeInsets.fromLTRB(0, 0, 8, 0),
-                    width: 88,
-                    decoration: BoxDecoration(
-                        color: Color(0xFF9932cc),
-                        borderRadius: BorderRadius.circular(5)),
-                    child: TextButton(
-                        onPressed: () {},
-                        style: TextButton.styleFrom(
-                          padding: EdgeInsets.all(6),
-                        ),
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Icon(
-                                Icons.payments_outlined,
-                                size: 23,
-                                color: Colors.white,
-                              ),
-                              Container(
-                                child: Text(
-                                  "Pagar",
-                                  style: TextStyle(color: Colors.white),
-                                ),
-                              )
-                            ],
-                          ),
-                        )),
-                  ),
-                  Container(
-                    margin: EdgeInsets.fromLTRB(0, 0, 8, 0),
-                    width: 88,
-                    decoration: BoxDecoration(
-                        color: Color(0xFF9932cc),
-                        borderRadius: BorderRadius.circular(5)),
-                    child: TextButton(
-                        onPressed: () {},
-                        style: TextButton.styleFrom(
-                          padding: EdgeInsets.all(6),
-                        ),
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Icon(
-                                Icons.person_add_alt_1_outlined,
-                                size: 23,
-                                color: Colors.white,
-                              ),
-                              Container(
-                                child: Text(
-                                  "Indicar amigos",
-                                  style: TextStyle(color: Colors.white),
-                                ),
-                              )
-                            ],
-                          ),
-                        )),
-                  ),
-                  Container(
-                    margin: EdgeInsets.fromLTRB(0, 0, 8, 0),
-                    width: 88,
-                    decoration: BoxDecoration(
-                        color: Color(0xFF9932cc),
-                        borderRadius: BorderRadius.circular(5)),
-                    child: TextButton(
-                        onPressed: () {},
-                        style: TextButton.styleFrom(
-                          padding: EdgeInsets.all(6),
-                        ),
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Icon(
-                                Icons.call_made_outlined,
-                                size: 23,
-                                color: Colors.white,
-                              ),
-                              Container(
-                                child: Text(
-                                  "Transferir",
-                                  style: TextStyle(color: Colors.white),
-                                ),
-                              )
-                            ],
-                          ),
-                        )),
-                  ),
-                  Container(
-                    margin: EdgeInsets.fromLTRB(0, 0, 8, 0),
-                    width: 88,
-                    decoration: BoxDecoration(
-                        color: Color(0xFF9932cc),
-                        borderRadius: BorderRadius.circular(5)),
-                    child: TextButton(
-                        onPressed: () {},
-                        style: TextButton.styleFrom(
-                          padding: EdgeInsets.all(6),
-                        ),
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Icon(
-                                Icons.call_received_outlined,
-                                size: 23,
-                                color: Colors.white,
-                              ),
-                              Container(
-                                child: Text(
-                                  "Depositar",
-                                  style: TextStyle(color: Colors.white),
-                                ),
-                              )
-                            ],
-                          ),
-                        )),
-                  ),
-                  Container(
-                    margin: EdgeInsets.fromLTRB(0, 0, 8, 0),
-                    width: 88,
-                    decoration: BoxDecoration(
-                        color: Color(0xFF9932cc),
-                        borderRadius: BorderRadius.circular(5)),
-                    child: TextButton(
-                        onPressed: () {},
-                        style: TextButton.styleFrom(
-                          padding: EdgeInsets.all(6),
-                        ),
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Icon(
-                                Icons.credit_card_outlined,
-                                size: 23,
-                                color: Colors.white,
-                              ),
-                              Container(
-                                child: Text(
-                                  "Cartão virtual",
-                                  style: TextStyle(color: Colors.white),
-                                ),
-                              )
-                            ],
-                          ),
-                        )),
-                  ),
-                  Container(
-                    margin: EdgeInsets.fromLTRB(0, 0, 8, 0),
-                    width: 88,
-                    decoration: BoxDecoration(
-                        color: Color(0xFF9932cc),
-                        borderRadius: BorderRadius.circular(5)),
-                    child: TextButton(
-                        onPressed: () {},
-                        style: TextButton.styleFrom(
-                          padding: EdgeInsets.all(6),
-                        ),
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Icon(
-                                Icons.phone_android_outlined,
-                                size: 23,
-                                color: Colors.white,
-                              ),
-                              Container(
-                                child: Text(
-                                  "Recarga de celular",
-                                  style: TextStyle(color: Colors.white),
-                                ),
-                              )
-                            ],
-                          ),
-                        )),
-                  ),
-                  Container(
-                    margin: EdgeInsets.fromLTRB(0, 0, 8, 0),
-                    width: 88,
-                    decoration: BoxDecoration(
-                        color: Color(0xFF9932cc),
-                        borderRadius: BorderRadius.circular(5)),
-                    child: TextButton(
-                        onPressed: () {},
-                        style: TextButton.styleFrom(
-                          padding: EdgeInsets.all(6),
-                        ),
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Icon(
-                                Icons.format_align_justify_outlined,
-                                size: 23,
-                                color: Colors.white,
-                              ),
-                              Container(
-                                child: Text(
-                                  "Ajustar limite",
-                                  style: TextStyle(color: Colors.white),
-                                ),
-                              )
-                            ],
-                          ),
-                        )),
-                  ),
-                  Container(
-                    margin: EdgeInsets.fromLTRB(0, 0, 8, 0),
-                    width: 88,
-                    decoration: BoxDecoration(
-                        color: Color(0xFF9932cc),
-                        borderRadius: BorderRadius.circular(5)),
-                    child: TextButton(
-                        onPressed: () {},
-                        style: TextButton.styleFrom(
-                          padding: EdgeInsets.all(6),
-                        ),
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Icon(
-                                Icons.lock,
-                                size: 23,
-                                color: Colors.white,
-                              ),
-                              Container(
-                                child: Text(
-                                  "Bloquear cartão",
-                                  style: TextStyle(color: Colors.white),
-                                ),
-                              )
-                            ],
-                          ),
-                        )),
-                  ),
-                  Container(
-                    margin: EdgeInsets.fromLTRB(0, 0, 8, 0),
-                    width: 88,
-                    decoration: BoxDecoration(
-                        color: Color(0xFF9932cc),
-                        borderRadius: BorderRadius.circular(5)),
-                    child: TextButton(
-                        onPressed: () {},
-                        style: TextButton.styleFrom(
-                          padding: EdgeInsets.all(6),
-                        ),
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Icon(
-                                Icons.monetization_on_outlined,
-                                size: 23,
-                                color: Colors.white,
-                              ),
-                              Container(
-                                child: Text(
-                                  "Cobrar",
-                                  style: TextStyle(color: Colors.white),
-                                ),
-                              )
-                            ],
-                          ),
-                        )),
-                  ),
-                  Container(
-                    margin: EdgeInsets.fromLTRB(0, 0, 8, 0),
-                    width: 88,
-                    decoration: BoxDecoration(
-                        color: Color(0xFF9932cc),
-                        borderRadius: BorderRadius.circular(5)),
-                    child: TextButton(
-                        onPressed: () {},
-                        style: TextButton.styleFrom(
-                          padding: EdgeInsets.all(6),
-                        ),
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Icon(
-                                Icons.arrow_circle_up_outlined,
-                                size: 23,
-                                color: Colors.white,
-                              ),
-                              Container(
-                                child: Text(
-                                  "Doação",
-                                  style: TextStyle(color: Colors.white),
-                                ),
-                              )
-                            ],
-                          ),
-                        )),
-                  ),
-                  Container(
-                    margin: EdgeInsets.fromLTRB(0, 0, 8, 0),
-                    width: 88,
-                    decoration: BoxDecoration(
-                        color: Color(0xFF9932cc),
-                        borderRadius: BorderRadius.circular(5)),
-                    child: TextButton(
-                        onPressed: () {},
-                        style: TextButton.styleFrom(
-                          padding: EdgeInsets.all(6),
-                        ),
-                        child: Align(
-                          alignment: Alignment.centerLeft,
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Icon(
-                                Icons.help_outline,
-                                size: 23,
-                                color: Colors.white,
-                              ),
-                              Container(
-                                child: Text(
-                                  "Me ajuda",
-                                  style: TextStyle(color: Colors.white),
-                                ),
-                              )
-                            ],
-                          ),
-                        )),
-                  ),
+                  buildBottomButtons("Pix", Icons.widgets_outlined),
+                  buildBottomButtons("Pagar", Icons.payments_outlined),
+                  buildBottomButtons("Indicar amigos", Icons.person_add_alt_1_outlined),
+                  buildBottomButtons("Transferir", Icons.call_made_outlined),
+                  buildBottomButtons("Depositar", Icons.call_received_outlined),
+                  buildBottomButtons("Cartão virtual", Icons.credit_card_outlined),
+                  buildBottomButtons("Recarga de celular", Icons.phone_android_outlined),
+                  buildBottomButtons("Ajustar limite", Icons.format_align_justify_outlined),
+                  buildBottomButtons("Bloquear cartão", Icons.lock),
+                  buildBottomButtons("Cobrar", Icons.monetization_on_outlined),
+                  buildBottomButtons("Doação", Icons.arrow_circle_up_outlined),
+                  buildBottomButtons("Me ajuda", Icons.help_outline),
                 ],
               ),
             ),
           ),
         )
       ]),
+    );
+  }
+
+  Widget buildBottomButtons(String text, IconData icon){
+    return Container(
+      margin: EdgeInsets.fromLTRB(0, 0, 8, 0),
+      width: 88,
+      decoration: BoxDecoration(
+          color: Color(0xFF9932cc),
+          borderRadius: BorderRadius.circular(5)),
+      child: TextButton(
+          onPressed: () {},
+          style: TextButton.styleFrom(
+            padding: EdgeInsets.all(6),
+          ),
+          child: Align(
+            alignment: Alignment.centerLeft,
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Icon(
+                  icon,
+                  size: 23,
+                  color: Colors.white,
+                ),
+                Container(
+                  child: Text(
+                    text,
+                    style: TextStyle(color: Colors.white),
+                  ),
+                )
+              ],
+            ),
+          )),
     );
   }
 }
